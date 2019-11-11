@@ -1,0 +1,118 @@
+html, body {
+  font-family: 'Literata', serif;
+}
+
+.navigation {
+  width: 100%;
+  height: 50px;
+
+  background-color: #5C6B73;
+}
+
+.navigation .nav-content {
+  margin-right: 25px;
+  margin-left: 25px;
+
+  color: white;
+  font-size: 25px;
+
+  line-height: 50px;
+}
+
+.navigation .nav-content a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  width: 100%;
+  height: 350px;
+
+  color: #5C6B73;
+  background-color: #9DB4C0;
+
+  overflow: hidden;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 70px;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+
+  margin-top: 100px;
+}
+
+.header h3 {
+  font-size: 23px;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  width: 700px;
+  min-height: 300px;
+
+  background-color: #E0FBFC;
+  color: #5C6B73;
+
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+.content p {
+  margin-left: 25px;
+  margin-right: 25px;
+
+  text-align: justify;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.activities {
+  width: 100%;
+  min-height: 350px;
+
+  background-color: #C2DFE3;
+  color: #5C6B73;
+  margin-top: 50px;
+}
+
+.activities table {
+  margin: auto;
+}
+
+.activity {
+  height: 300px;
+  width: 250px;
+
+  background-color: white;
+}
+
+.activity img {
+  width: calc(100% - 10px);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.activity h5{
+  text-align: center;
+  font-size: 30px;
+}
+
+.activity p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+
+  color: #5C6B73;
+  background-color: #E0FBFC;
+}
